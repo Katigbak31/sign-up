@@ -1,0 +1,57 @@
+#background{
+    object-fit: cover;
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+
+.signform {
+position: absolute;
+left: 100px;
+top: 40px;
+background: #f3f3f3;
+border: 2px solid rgba(0, 0, 0, 0);
+border-radius: 10px;
+padding: 25px;
+width: 350px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+text-align: center;
+}
+
+.h1 {
+color: #333333;
+margin-bottom: 15px;
+}
+.h2 {
+color: white;
+margin-bottom: 15px;
+}
+
+.tex {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.pindot {
+    background-color: #FF7B00;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.texter{
+    position: absolute;
+    right: 200px;
+    top: 200px;
+    font-size: 30px;
+}
